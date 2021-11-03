@@ -6,7 +6,7 @@ dotenv.config()
 const app = express()
 
 const KEY = process.env.APIKEY
-const DATE = new Date("2021-11-04")
+const DATE = new Date()
 
 app.use('/', express.static('public'));
 
